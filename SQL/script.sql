@@ -200,7 +200,26 @@ Create Table DEVICE_RECORD (
 	ReturnTime DateTime
 );
 
-Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(0, '20181025 10:34:09 AM', '20120618 10:34:09 AM');
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(0, '20181025 10:34:09 AM', '20181025 11:34:06 PM'); 
+
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(1, '20181025 10:00:00 AM', '20181026 5:34:09 PM'); 
+
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(2, '20181025 11:00:00 AM', '20181026 5:30:00 PM'); 
+
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(3, '20181024 8:00:00 AM', '20181024 4:30:00 PM'); 
+
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(4, '20181024 8:15:44 AM', '20181024 6:34:19 PM'); 
+
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(5, '20181024 6:00:05 AM', '20181024 12:34:01 PM'); 
+
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(6, '20181023 10:30:04 AM', '20181023 11:59:39 PM'); 
+
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(7, '20181023 11:45:11 PM', '20181024 9:30:00 AM'); 
+
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(8, '20181023 4:30:17 PM', '20181024 12:34:09 AM'); 
+
+Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(9, '20181023 3:15:00 PM', '20181024 12:01:07 AM'); 
+
 
 Create Table DEVICE_HANDLE (
 	EmployeeId Int,
