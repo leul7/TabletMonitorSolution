@@ -241,3 +241,18 @@ Create Table DEVICE_HANDLE (
 		/*Update all device_handle records to use the new device_record ID.*/
 		On Update Cascade,
 );
+Insert Into DEVICE_HANDLE Values (0, 23, 9);
+Insert Into DEVICE_HANDLE Values (1, 22, 8);
+Insert Into DEVICE_HANDLE Values (2, 21, 7);
+Insert Into DEVICE_HANDLE Values (3, 19, 6);
+Insert Into DEVICE_HANDLE Values (4, 13, 5);
+Insert Into DEVICE_HANDLE Values (5, 0, 4);
+Insert Into DEVICE_HANDLE Values (6, 3, 3);
+Insert Into DEVICE_HANDLE Values (7, 16, 2);
+Insert Into DEVICE_HANDLE Values (8, 19, 1);
+Insert Into DEVICE_HANDLE Values (9, 14, 0);
+							      
+							      
+							      
+							      
+							  
