@@ -224,7 +224,7 @@ Insert Into DEVICE_RECORD(ID, CheckOutTime, ReturnTime) Values(9, '20181023 3:15
 Create Table DEVICE_HANDLE (
 	EmployeeId Int,
 	DeviceId Int,
-	DeviceRecordId Int,
+	DeviceRecordId Int primary key,
 	Foreign Key (EmployeeId) References EMPLOYEE(ID)
 		/*Delete all employee device_handle records if employee is removed.*/
 		On Delete Cascade
